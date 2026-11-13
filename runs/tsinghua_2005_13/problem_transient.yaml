@@ -1,0 +1,16 @@
+title: "清华2005考研真题13题换路后暂态过程(t>0)"
+given: "换路后 S1 闭合、S2 打开，初始储能 uC(0+)=-8V"
+ask: "求 i(t) 响应"
+domain: transient
+netlist: |
+  Vs 4 0 30
+  R0 4 1 12
+  Ri 1 0 6
+  C1 1 2 0.1 -8
+  R2 2 0 6
+queries:
+  - I(Ri)
+  - V(C1)
+  - V(1)
+  - V(2)
+table: true

@@ -1,0 +1,22 @@
+title: "华科 2023 第 4 题 (1)：t = 0- 开关 S 打开前的直流稳态"
+given: "R1 = R2 = R3 = 10Ω, L = 0.5H, C = 0.05F, Us = 8V (上+下-), Is = 4A (方向向上)；t < 0 时开关 S 闭合 (T1 与 T2 短接)"
+ask: "求换路前稳态下的电感电流 iL(0-) 和电容电压 uC(0-) (上+下-)"
+domain: dc
+netlist: |
+  Vs nuc 0 dc 8
+  C1 A nuc 0.05
+  R2 A 0 10
+  R1 T1 A 10
+  L1 T1 A 0.5
+  W1 T1 T2
+  R3 T2 0 10
+  Is T2 0 dc 4
+queries:
+  - I(L1)
+  - V(C1)
+  - V(A)
+  - V(T1)
+  - I(R1)
+  - I(R2)
+  - I(R3)
+table: true

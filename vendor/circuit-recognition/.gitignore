@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# --- Models (large files, auto-downloaded) ---
+models/sam_vit_b_01ec64.pth
+models/trt/*.engine
+models/trt/*.json
+
+# --- Runtime ---
+cache/
+logs/
+*.log
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+
+# --- Dev internal ---
+.superpowers/

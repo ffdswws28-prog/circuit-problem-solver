@@ -1,0 +1,18 @@
+title: "华科2016考研真题12题（二阶电路暂态过程）"
+given: "电路在开关闭合时处于直流稳态，t=0 时开关打开。忽略学生手写批注与草稿图。"
+ask: "换路后(t>0)以 uC 为变量的微分方程，初始值 uC(0+) 及 duC/dt(0+)"
+domain: dc
+netlist: |
+  Vs 3 0 6
+  R3 3 2 2/3
+  R2 2 0 2
+  C1 2 0 0.5
+  R1 2 1 4
+  L1 1 0 1
+queries:
+  - V(2)
+  - I(L1)
+  - I(R2)
+  - I(R3)
+equations: nodal
+table: true

@@ -1,0 +1,15 @@
+title: "北理 2017 第 10 题：一阶受控源电路三要素法求解 i(t)"
+given: "电路如图所示，Is1 = 12A (向上)，R1 = 8Ω (流过电流 i，向上)，受控电流源 0.2i (向下)，恒压源 4V (左负右正)，电容 C = 0.01F，右侧支路包含 R2 = 10Ω 与 20V 电压源。开关在 t = 0 时由 a 端投向 b 端，动作前处于稳态。"
+ask: "用三要素法求 t > 0 时的电流 i(t)"
+domain: transient
+netlist: |
+  Is1 0 1 step 12
+  Vm 0 1a 0
+  R8 1a 1 8
+  F1 1 0 Vm 0.2
+  V4 b 1 step 4
+  C1 b 0 0.01 20
+queries:
+  - expr: "c.Vm.i"
+  - expr: "c.C1.v"
+  - expr: "c['1'].v"

@@ -1,0 +1,41 @@
+{
+  "input": "C:/Users/WANG/.gemini/antigravity/brain/0ce8c209-0365-433e-a401-0a400873ab72/.user_uploaded/media_1794548707901_1781d3bb.jpg",
+  "size": [
+    1024,
+    472
+  ],
+  "scale": 1.0,
+  "rotate": -90,
+  "upscale": 1.0,
+  "mode": "auto",
+  "notes": [
+    "auto 跳过铅笔擦除 (彩色手写占比=0.410, 墨迹p15灰度=6.0)"
+  ],
+  "color": {
+    "pixels": 8773,
+    "dominant_hues": [
+      {
+        "hue": "blue",
+        "share": 0.485
+      },
+      {
+        "hue": "blue",
+        "share": 0.168
+      },
+      {
+        "hue": "red",
+        "share": 0.127
+      }
+    ]
+  },
+  "model": "未找到模型权重 (放到 D:\\电路\\models\\handwriting_eraser\\*.pth 即可启用)",
+  "repaired_pixels": 397,
+  "hand_share_of_ink": 0.4103,
+  "outputs": {
+    "normalized": "runs\\hust2023_q4\\00_normalized.png",
+    "print": "runs\\hust2023_q4\\01_print.png",
+    "hand": "runs\\hust2023_q4\\02_hand.png",
+    "overlay": "runs\\hust2023_q4\\03_overlay.png"
+  },
+  "coords_note": "所有输出图共用同一坐标系 (工作图 = 原图 × scale); 人工框也用此坐标"
+}

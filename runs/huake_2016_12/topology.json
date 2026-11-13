@@ -1,0 +1,432 @@
+{
+  "image": "runs\\huake_2016_12\\01_print_crop.png",
+  "size": [
+    930,
+    230
+  ],
+  "components": [
+    {
+      "class": "resistor",
+      "bbox": [
+        470,
+        98,
+        48,
+        88
+      ],
+      "confidence": 0.895,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "R2",
+      "terminals": [
+        {
+          "net": "N5",
+          "contact_px": 24,
+          "xy": [
+            496,
+            94
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N10",
+          "contact_px": 19,
+          "xy": [
+            493,
+            188
+          ],
+          "side": "bottom"
+        }
+      ],
+      "text_hint": "2Q"
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        131,
+        33,
+        90,
+        45
+      ],
+      "confidence": 0.821,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R1",
+      "terminals": [
+        {
+          "net": "N3",
+          "contact_px": 48,
+          "xy": [
+            190,
+            29
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N4",
+          "contact_px": 27,
+          "xy": [
+            127,
+            52
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N2",
+          "contact_px": 26,
+          "xy": [
+            166,
+            29
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N5",
+          "contact_px": 24,
+          "xy": [
+            223,
+            54
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N1",
+          "contact_px": 5,
+          "xy": [
+            159,
+            31
+          ],
+          "side": "top"
+        }
+      ],
+      "text_hint": "1H"
+    },
+    {
+      "class": "capacitor",
+      "bbox": [
+        278,
+        110,
+        86,
+        47
+      ],
+      "confidence": 0.771,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "C2",
+      "terminals": [
+        {
+          "net": "N5",
+          "contact_px": 30,
+          "xy": [
+            322,
+            106
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N9",
+          "contact_px": 24,
+          "xy": [
+            273,
+            130
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N8",
+          "contact_px": 24,
+          "xy": [
+            319,
+            159
+          ],
+          "side": "bottom"
+        }
+      ]
+    },
+    {
+      "class": "inductor",
+      "bbox": [
+        32,
+        87,
+        31,
+        82
+      ],
+      "confidence": 0.768,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "L1",
+      "terminals": [
+        {
+          "net": "N4",
+          "contact_px": 18,
+          "xy": [
+            47,
+            83
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N8",
+          "contact_px": 18,
+          "xy": [
+            41,
+            171
+          ],
+          "side": "bottom"
+        }
+      ],
+      "text_hint": "1H"
+    },
+    {
+      "class": "capacitor",
+      "bbox": [
+        739,
+        60,
+        59,
+        41
+      ],
+      "confidence": 0.4,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "C1",
+      "terminals": [
+        {
+          "net": "N7",
+          "contact_px": 28,
+          "xy": [
+            800,
+            81
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N6",
+          "contact_px": 24,
+          "xy": [
+            735,
+            78
+          ],
+          "side": "left"
+        }
+      ],
+      "text_hint": "t=0"
+    }
+  ],
+  "nets": {
+    "N1": {
+      "labels": [
+        3
+      ],
+      "members": [
+        "R1.top"
+      ],
+      "bbox": [
+        159,
+        30,
+        2,
+        3
+      ],
+      "pixels": 5,
+      "dangling": true
+    },
+    "N2": {
+      "labels": [
+        2
+      ],
+      "members": [
+        "R1.top"
+      ],
+      "bbox": [
+        162,
+        18,
+        8,
+        15
+      ],
+      "pixels": 77,
+      "dangling": true
+    },
+    "N3": {
+      "labels": [
+        1
+      ],
+      "members": [
+        "R1.top"
+      ],
+      "bbox": [
+        181,
+        17,
+        20,
+        16
+      ],
+      "pixels": 132,
+      "dangling": true
+    },
+    "N4": {
+      "labels": [
+        4
+      ],
+      "members": [
+        "R1.left",
+        "L1.top"
+      ],
+      "bbox": [
+        46,
+        51,
+        85,
+        36
+      ],
+      "pixels": 426
+    },
+    "N5": {
+      "labels": [
+        5
+      ],
+      "members": [
+        "R2.top",
+        "R1.right",
+        "C2.top"
+      ],
+      "bbox": [
+        221,
+        53,
+        377,
+        57
+      ],
+      "pixels": 2018
+    },
+    "N6": {
+      "labels": [
+        7
+      ],
+      "members": [
+        "C1.left"
+      ],
+      "bbox": [
+        690,
+        75,
+        49,
+        6
+      ],
+      "pixels": 216,
+      "dangling": true
+    },
+    "N7": {
+      "labels": [
+        8
+      ],
+      "members": [
+        "C1.right"
+      ],
+      "bbox": [
+        798,
+        80,
+        72,
+        8
+      ],
+      "pixels": 322,
+      "dangling": true
+    },
+    "N8": {
+      "labels": [
+        20
+      ],
+      "members": [
+        "C2.bottom",
+        "L1.bottom"
+      ],
+      "bbox": [
+        37,
+        157,
+        439,
+        63
+      ],
+      "pixels": 2406
+    },
+    "N9": {
+      "labels": [
+        16
+      ],
+      "members": [
+        "C2.left"
+      ],
+      "bbox": [
+        260,
+        126,
+        16,
+        25
+      ],
+      "pixels": 183,
+      "dangling": true
+    },
+    "N10": {
+      "labels": [
+        22
+      ],
+      "members": [
+        "R2.bottom"
+      ],
+      "bbox": [
+        490,
+        186,
+        6,
+        28
+      ],
+      "pixels": 103,
+      "dangling": true
+    }
+  },
+  "texts": [
+    {
+      "text": "1H",
+      "score": 0.504,
+      "bbox": [
+        1,
+        117,
+        48,
+        37
+      ]
+    },
+    {
+      "text": "t=0",
+      "score": 0.944,
+      "bbox": [
+        749,
+        108,
+        50,
+        33
+      ]
+    },
+    {
+      "text": "(",
+      "score": 0.717,
+      "bbox": [
+        834,
+        117,
+        77,
+        81
+      ]
+    },
+    {
+      "text": "2Q",
+      "score": 0.746,
+      "bbox": [
+        516,
+        127,
+        54,
+        41
+      ]
+    }
+  ],
+  "warnings": [
+    "R1(resistor) 找到 5 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "C2(capacitor) 找到 3 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "节点 N1 只接 1 个端子 (R1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N2 只接 1 个端子 (R1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N3 只接 1 个端子 (R1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N6 只接 1 个端子 (C1.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N7 只接 1 个端子 (C1.right): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N9 只接 1 个端子 (C2.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N10 只接 1 个端子 (R2.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "7 段较大的墨迹未接触任何元件 (可能是未识别元件/题目文字/残留手写), 已在标注图中用灰色虚框标出"
+  ],
+  "outputs": {
+    "annotated": "runs\\huake_2016_12\\topology_annotated.png",
+    "netlist_draft": "runs\\huake_2016_12\\netlist_draft.txt"
+  },
+  "yolo_classes": "resistor capacitor inductor diode transistor opamp ic ground voltage_source current_source",
+  "manual_classes": "vcvs vccs ccvs cccs switch port mosfet transformer coupled_inductor element ammeter voltmeter"
+}

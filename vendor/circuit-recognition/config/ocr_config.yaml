@@ -1,0 +1,31 @@
+# config/ocr_config.yaml
+# OCR 推理加速配置 — 所有可调参数收敛于此
+
+backend:
+  default: auto              # auto | trt | rapidocr
+  fallback_on_failure: true
+
+trt:
+  precision: fp16            # fp16 | fp32
+  det_enabled: false         # det TRT 收益极低，默认关闭
+  rec_batch_group_step: 64   # 宽度分组步长
+  rec_max_batch: 32
+  engine_cache_dir: models/trt/
+
+filter:
+  size_min_h: 6
+  size_max_h: 400
+  conf_threshold: 0.3
+  nms_iou: 0.5
+  yolo_padding: 0.4
+  margin_top: 0.1
+  margin_bot: 0.05
+  min_texts: 4               # 少于此数回退全量 rec
+
+trace:
+  enabled: true
+  per_page: true              # 逐页 snapshot_and_reset
+
+profiling:
+  target_ms_per_page: 1500    # 1.5s 目标
+  max_loss_ratio: 0.05        # <5% 文字丢失

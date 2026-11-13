@@ -1,0 +1,14 @@
+title: "华科2016考研真题12题换路后暂态过程(t>0)"
+given: "开关打开后的无源二阶RLC电路，初始储能 uC(0+)=4V, iL(0+)=1A"
+ask: "uC(t) 暂态响应与微分方程验证"
+domain: transient
+netlist: |
+  C1 2 0 0.5 4
+  R2 2 0 2
+  R1 2 1 4
+  L1 1 0 1 1
+queries:
+  - V(2)
+  - I(L1)
+  - I(C1)
+table: true

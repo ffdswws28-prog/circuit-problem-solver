@@ -1,0 +1,20 @@
+title: "华科 2023 第 4 题 (2)：t >= 0 开关 S 打开后的暂态响应"
+given: "R1 = R2 = R3 = 10Ω, L = 0.5H, C = 0.05F, Us = 8V, Is = 4A；初值 iL(0+) = 2A (向下), uC(0+) = 12V (上+下-)；t = 0 时开关 S 打开"
+ask: "求 t >= 0 时的 iL(t)、uC(t) 以及开关 S 两端的电压 uS(t)"
+domain: transient
+netlist: |
+  Vs nuc 0 step 8
+  C1 A nuc 0.05 12
+  R2 A 0 10
+  R1 T1 A 10
+  L1 T1 A 0.5 2
+  R3 T2 0 10
+  Is T2 0 step 4
+queries:
+  - i(L1)
+  - v(C1)
+  - v(A)
+  - v(T1)
+  - v(T2)
+  - expr: "(c['T2'].v - c['T1'].v).simplify()"
+  - expr: "(c['T1'].v - c['T2'].v).simplify()"

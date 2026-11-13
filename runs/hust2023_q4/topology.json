@@ -1,0 +1,650 @@
+{
+  "image": "runs\\hust2023_q4\\01_print_crop.png",
+  "size": [
+    370,
+    330
+  ],
+  "components": [
+    {
+      "class": "resistor",
+      "bbox": [
+        246,
+        114,
+        23,
+        41
+      ],
+      "confidence": 0.873,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R2",
+      "terminals": [
+        {
+          "net": "N13",
+          "contact_px": 24,
+          "xy": [
+            242,
+            135
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N7",
+          "contact_px": 12,
+          "xy": [
+            258,
+            110
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N14",
+          "contact_px": 12,
+          "xy": [
+            258,
+            157
+          ],
+          "side": "bottom"
+        }
+      ]
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        155,
+        169,
+        23,
+        42
+      ],
+      "confidence": 0.838,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R3",
+      "terminals": [
+        {
+          "net": "N18",
+          "contact_px": 17,
+          "xy": [
+            168,
+            213
+          ],
+          "side": "bottom"
+        },
+        {
+          "net": "N16",
+          "contact_px": 5,
+          "xy": [
+            168,
+            166
+          ],
+          "side": "top"
+        }
+      ],
+      "text_hint": "口"
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        78,
+        58,
+        22,
+        40
+      ],
+      "confidence": 0.578,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R1",
+      "terminals": [
+        {
+          "net": "N4",
+          "contact_px": 13,
+          "xy": [
+            90,
+            54
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N8",
+          "contact_px": 12,
+          "xy": [
+            89,
+            100
+          ],
+          "side": "bottom"
+        },
+        {
+          "net": "N3",
+          "contact_px": 9,
+          "xy": [
+            74,
+            79
+          ],
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "class": "capacitor",
+      "bbox": [
+        70,
+        147,
+        35,
+        21
+      ],
+      "confidence": 0.505,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "C2",
+      "terminals": [
+        {
+          "net": "N11",
+          "contact_px": 20,
+          "xy": [
+            108,
+            155
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N15",
+          "contact_px": 18,
+          "xy": [
+            89,
+            170
+          ],
+          "side": "bottom"
+        },
+        {
+          "net": "N8",
+          "contact_px": 9,
+          "xy": [
+            88,
+            144
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N10",
+          "contact_px": 8,
+          "xy": [
+            65,
+            159
+          ],
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "class": "switch",
+      "bbox": [
+        185,
+        36,
+        48,
+        25
+      ],
+      "confidence": 1.0,
+      "source": "manual",
+      "id": "SW",
+      "terminals": [
+        {
+          "net": "N2",
+          "contact_px": 22,
+          "xy": [
+            209,
+            32
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N1",
+          "contact_px": 21,
+          "xy": [
+            187,
+            31
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N4",
+          "contact_px": 18,
+          "xy": [
+            181,
+            43
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N7",
+          "contact_px": 17,
+          "xy": [
+            235,
+            43
+          ],
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "class": "inductor",
+      "bbox": [
+        158,
+        60,
+        20,
+        45
+      ],
+      "confidence": 1.0,
+      "source": "manual",
+      "id": "L1",
+      "terminals": [
+        {
+          "net": "N6",
+          "contact_px": 15,
+          "xy": [
+            182,
+            79
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N5",
+          "contact_px": 14,
+          "xy": [
+            153,
+            61
+          ],
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "class": "voltage_source",
+      "bbox": [
+        72,
+        195,
+        34,
+        40
+      ],
+      "confidence": 1.0,
+      "source": "manual",
+      "id": "Vs",
+      "terminals": [
+        {
+          "net": "N17",
+          "contact_px": 16,
+          "xy": [
+            67,
+            214
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N18",
+          "contact_px": 14,
+          "xy": [
+            88,
+            237
+          ],
+          "side": "bottom"
+        }
+      ],
+      "text_hint": "口"
+    },
+    {
+      "class": "current_source",
+      "bbox": [
+        320,
+        115,
+        36,
+        40
+      ],
+      "confidence": 1.0,
+      "source": "manual",
+      "id": "Is",
+      "terminals": [
+        {
+          "net": "N9",
+          "contact_px": 18,
+          "xy": [
+            340,
+            111
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N12",
+          "contact_px": 16,
+          "xy": [
+            340,
+            157
+          ],
+          "side": "bottom"
+        }
+      ]
+    }
+  ],
+  "nets": {
+    "N1": {
+      "labels": [
+        3
+      ],
+      "members": [
+        "SW.top"
+      ],
+      "bbox": [
+        184,
+        25,
+        7,
+        9
+      ],
+      "pixels": 44,
+      "dangling": true
+    },
+    "N2": {
+      "labels": [
+        2
+      ],
+      "members": [
+        "SW.top"
+      ],
+      "bbox": [
+        204,
+        21,
+        9,
+        15
+      ],
+      "pixels": 66,
+      "dangling": true
+    },
+    "N3": {
+      "labels": [
+        10
+      ],
+      "members": [
+        "R1.left"
+      ],
+      "bbox": [
+        74,
+        78,
+        2,
+        5
+      ],
+      "pixels": 9,
+      "dangling": true
+    },
+    "N4": {
+      "labels": [
+        4
+      ],
+      "members": [
+        "R1.top",
+        "SW.left"
+      ],
+      "bbox": [
+        89,
+        42,
+        96,
+        16
+      ],
+      "pixels": 321
+    },
+    "N5": {
+      "labels": [
+        6
+      ],
+      "members": [
+        "L1.left"
+      ],
+      "bbox": [
+        147,
+        55,
+        8,
+        9
+      ],
+      "pixels": 38,
+      "dangling": true
+    },
+    "N6": {
+      "labels": [
+        9
+      ],
+      "members": [
+        "L1.right"
+      ],
+      "bbox": [
+        181,
+        74,
+        6,
+        10
+      ],
+      "pixels": 31,
+      "dangling": true
+    },
+    "N7": {
+      "labels": [
+        5
+      ],
+      "members": [
+        "R2.top",
+        "SW.right"
+      ],
+      "bbox": [
+        233,
+        43,
+        109,
+        71
+      ],
+      "pixels": 571
+    },
+    "N8": {
+      "labels": [
+        14
+      ],
+      "members": [
+        "R1.bottom",
+        "C2.top"
+      ],
+      "bbox": [
+        88,
+        98,
+        16,
+        49
+      ],
+      "pixels": 122
+    },
+    "N9": {
+      "labels": [
+        13
+      ],
+      "members": [
+        "Is.top"
+      ],
+      "bbox": [
+        339,
+        94,
+        3,
+        21
+      ],
+      "pixels": 62,
+      "dangling": true
+    },
+    "N10": {
+      "labels": [
+        20
+      ],
+      "members": [
+        "C2.left"
+      ],
+      "bbox": [
+        57,
+        154,
+        10,
+        8
+      ],
+      "pixels": 54,
+      "dangling": true
+    },
+    "N11": {
+      "labels": [
+        19
+      ],
+      "members": [
+        "C2.right"
+      ],
+      "bbox": [
+        107,
+        151,
+        9,
+        9
+      ],
+      "pixels": 30,
+      "dangling": true
+    },
+    "N12": {
+      "labels": [
+        22
+      ],
+      "members": [
+        "Is.bottom"
+      ],
+      "bbox": [
+        188,
+        155,
+        155,
+        94
+      ],
+      "pixels": 646,
+      "dangling": true
+    },
+    "N13": {
+      "labels": [
+        15
+      ],
+      "members": [
+        "R2.left"
+      ],
+      "bbox": [
+        240,
+        130,
+        6,
+        10
+      ],
+      "pixels": 24,
+      "dangling": true
+    },
+    "N14": {
+      "labels": [
+        21
+      ],
+      "members": [
+        "R2.bottom"
+      ],
+      "bbox": [
+        258,
+        155,
+        2,
+        17
+      ],
+      "pixels": 34,
+      "dangling": true
+    },
+    "N15": {
+      "labels": [
+        25
+      ],
+      "members": [
+        "C2.bottom"
+      ],
+      "bbox": [
+        88,
+        168,
+        3,
+        16
+      ],
+      "pixels": 43,
+      "dangling": true
+    },
+    "N16": {
+      "labels": [
+        23
+      ],
+      "members": [
+        "R3.top"
+      ],
+      "bbox": [
+        167,
+        166,
+        3,
+        2
+      ],
+      "pixels": 5,
+      "dangling": true
+    },
+    "N17": {
+      "labels": [
+        32
+      ],
+      "members": [
+        "Vs.left"
+      ],
+      "bbox": [
+        65,
+        212,
+        4,
+        6
+      ],
+      "pixels": 19,
+      "dangling": true
+    },
+    "N18": {
+      "labels": [
+        31
+      ],
+      "members": [
+        "R3.bottom",
+        "Vs.bottom"
+      ],
+      "bbox": [
+        88,
+        211,
+        88,
+        39
+      ],
+      "pixels": 376
+    }
+  },
+  "texts": [
+    {
+      "text": "口",
+      "score": 0.818,
+      "bbox": [
+        158,
+        168,
+        26,
+        39
+      ]
+    }
+  ],
+  "warnings": [
+    "R2(resistor) 找到 3 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "R1(resistor) 找到 3 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "C2(capacitor) 找到 4 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "SW(switch) 找到 4 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "节点 N1 只接 1 个端子 (SW.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N2 只接 1 个端子 (SW.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N3 只接 1 个端子 (R1.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N5 只接 1 个端子 (L1.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N6 只接 1 个端子 (L1.right): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N9 只接 1 个端子 (Is.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N10 只接 1 个端子 (C2.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N11 只接 1 个端子 (C2.right): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N12 只接 1 个端子 (Is.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N13 只接 1 个端子 (R2.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N14 只接 1 个端子 (R2.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N15 只接 1 个端子 (C2.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N16 只接 1 个端子 (R3.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N17 只接 1 个端子 (Vs.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "3 段较大的墨迹未接触任何元件 (可能是未识别元件/题目文字/残留手写), 已在标注图中用灰色虚框标出"
+  ],
+  "outputs": {
+    "annotated": "runs\\hust2023_q4\\topology_annotated.png",
+    "netlist_draft": "runs\\hust2023_q4\\netlist_draft.txt"
+  },
+  "yolo_classes": "resistor capacitor inductor diode transistor opamp ic ground voltage_source current_source",
+  "manual_classes": "vcvs vccs ccvs cccs switch port mosfet transformer coupled_inductor element ammeter voltmeter"
+}

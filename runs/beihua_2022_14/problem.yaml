@@ -1,0 +1,16 @@
+title: "北化2022考研真题14题（最大功率传输与诺顿等效）"
+given: "NS 为含独立源的线性电阻网络，并联 20Ω 电阻与 2A 独立电流源（方向向下），接可变负载 RL。当 RL=12Ω 时获最大功率 48W。"
+ask: "求 NS 的诺顿等效电路（等效电阻 RN 与诺顿电流源 IN）"
+domain: dc
+netlist: |
+  In 1 0 6
+  Rn 1 0 30
+  R20 1 0 20
+  Is 0 1 2
+  RL 1 0 12
+queries:
+  - V(1)
+  - I(RL)
+  - thevenin(1, 0)
+  - norton(1, 0)
+table: true

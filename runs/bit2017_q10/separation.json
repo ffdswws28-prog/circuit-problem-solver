@@ -1,0 +1,41 @@
+{
+  "input": "runs\\bit2017_q10\\input_upright.png",
+  "size": [
+    1024,
+    576
+  ],
+  "scale": 1.0,
+  "rotate": 0,
+  "upscale": 1.0,
+  "mode": "auto",
+  "notes": [
+    "auto 跳过铅笔擦除 (彩色手写占比=0.442, 墨迹p15灰度=70.0)"
+  ],
+  "color": {
+    "pixels": 11541,
+    "dominant_hues": [
+      {
+        "hue": "orange",
+        "share": 0.657
+      },
+      {
+        "hue": "red",
+        "share": 0.338
+      },
+      {
+        "hue": "yellow",
+        "share": 0.003
+      }
+    ]
+  },
+  "model": "未找到模型权重 (放到 D:\\电路\\models\\handwriting_eraser\\*.pth 即可启用)",
+  "repaired_pixels": 16,
+  "hand_share_of_ink": 0.4425,
+  "outputs": {
+    "normalized": "runs\\bit2017_q10\\00_normalized.png",
+    "print": "runs\\bit2017_q10\\01_print.png",
+    "hand": "runs\\bit2017_q10\\02_hand.png",
+    "overlay": "runs\\bit2017_q10\\03_overlay.png"
+  },
+  "coords_note": "所有输出图共用同一坐标系 (工作图 = 原图 × scale); 人工框也用此坐标"
+}

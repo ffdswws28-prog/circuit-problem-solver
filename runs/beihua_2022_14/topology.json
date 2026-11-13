@@ -1,0 +1,104 @@
+{
+  "image": "runs\\beihua_2022_14\\01_print.png",
+  "size": [
+    1024,
+    576
+  ],
+  "components": [
+    {
+      "class": "resistor",
+      "bbox": [
+        274,
+        207,
+        24,
+        47
+      ],
+      "confidence": 0.864,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R1",
+      "terminals": [
+        {
+          "net": "N1",
+          "contact_px": 12,
+          "xy": [
+            286,
+            256
+          ],
+          "side": "bottom"
+        }
+      ],
+      "text_hint": "02"
+    }
+  ],
+  "nets": {
+    "N1": {
+      "labels": [
+        197
+      ],
+      "members": [
+        "R1.bottom"
+      ],
+      "bbox": [
+        230,
+        230,
+        217,
+        61
+      ],
+      "pixels": 604,
+      "dangling": true
+    }
+  },
+  "texts": [
+    {
+      "text": "14.（北化2022）电路如图所示，NS为含有独立源的线性电阻电路，已知当R=12Q时能获得最",
+      "score": 0.977,
+      "bbox": [
+        93,
+        59,
+        860,
+        31
+      ]
+    },
+    {
+      "text": "大功率值48W，求NS的诺顿辜效电路。",
+      "score": 0.944,
+      "bbox": [
+        94,
+        110,
+        352,
+        26
+      ]
+    },
+    {
+      "text": "2A",
+      "score": 0.996,
+      "bbox": [
+        377,
+        189,
+        31,
+        21
+      ]
+    },
+    {
+      "text": "02",
+      "score": 0.875,
+      "bbox": [
+        229,
+        211,
+        54,
+        32
+      ]
+    }
+  ],
+  "warnings": [
+    "R1(resistor) 只找到 1 个端子: 可能被短接/框太大/导线断开, 请核对",
+    "节点 N1 只接 1 个端子 (R1.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "7 段较大的墨迹未接触任何元件 (可能是未识别元件/题目文字/残留手写), 已在标注图中用灰色虚框标出"
+  ],
+  "outputs": {
+    "annotated": "runs\\beihua_2022_14\\topology_annotated.png",
+    "netlist_draft": "runs\\beihua_2022_14\\netlist_draft.txt"
+  },
+  "yolo_classes": "resistor capacitor inductor diode transistor opamp ic ground voltage_source current_source",
+  "manual_classes": "vcvs vccs ccvs cccs switch port mosfet transformer coupled_inductor element ammeter voltmeter"
+}

@@ -1,0 +1,390 @@
+{
+  "image": "runs\\tsinghua_2005_13\\01_print_crop.png",
+  "size": [
+    620,
+    250
+  ],
+  "components": [
+    {
+      "class": "resistor",
+      "bbox": [
+        234,
+        143,
+        35,
+        65
+      ],
+      "confidence": 0.915,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "R2",
+      "terminals": [],
+      "text_hint": "口"
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        474,
+        139,
+        34,
+        66
+      ],
+      "confidence": 0.909,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "R4",
+      "terminals": [
+        {
+          "net": "N7",
+          "contact_px": 17,
+          "xy": [
+            511,
+            136
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N4",
+          "contact_px": 12,
+          "xy": [
+            492,
+            135
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N9",
+          "contact_px": 12,
+          "xy": [
+            490,
+            207
+          ],
+          "side": "bottom"
+        }
+      ],
+      "text_hint": "4"
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        342,
+        146,
+        33,
+        63
+      ],
+      "confidence": 0.891,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R3",
+      "terminals": [
+        {
+          "net": "N5",
+          "contact_px": 11,
+          "xy": [
+            379,
+            152
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N6",
+          "contact_px": 6,
+          "xy": [
+            360,
+            142
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N8",
+          "contact_px": 3,
+          "xy": [
+            357,
+            213
+          ],
+          "side": "bottom"
+        }
+      ],
+      "text_hint": "60"
+    },
+    {
+      "class": "capacitor",
+      "bbox": [
+        271,
+        40,
+        34,
+        60
+      ],
+      "confidence": 0.649,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "C1",
+      "terminals": [
+        {
+          "net": "N1",
+          "contact_px": 55,
+          "xy": [
+            267,
+            66
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N2",
+          "contact_px": 18,
+          "xy": [
+            268,
+            78
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N3",
+          "contact_px": 12,
+          "xy": [
+            307,
+            70
+          ],
+          "side": "right"
+        }
+      ],
+      "text_hint": "口"
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        375,
+        31,
+        77,
+        55
+      ],
+      "confidence": 0.286,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R1",
+      "terminals": [
+        {
+          "net": "N4",
+          "contact_px": 12,
+          "xy": [
+            454,
+            74
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N3",
+          "contact_px": 10,
+          "xy": [
+            371,
+            72
+          ],
+          "side": "left"
+        }
+      ],
+      "text_hint": "4"
+    }
+  ],
+  "nets": {
+    "N1": {
+      "labels": [
+        4
+      ],
+      "members": [
+        "C1.left"
+      ],
+      "bbox": [
+        204,
+        58,
+        67,
+        22
+      ],
+      "pixels": 357,
+      "dangling": true
+    },
+    "N2": {
+      "labels": [
+        9
+      ],
+      "members": [
+        "C1.left"
+      ],
+      "bbox": [
+        266,
+        76,
+        5,
+        5
+      ],
+      "pixels": 18,
+      "dangling": true
+    },
+    "N3": {
+      "labels": [
+        6
+      ],
+      "members": [
+        "C1.right",
+        "R1.left"
+      ],
+      "bbox": [
+        305,
+        70,
+        70,
+        10
+      ],
+      "pixels": 129
+    },
+    "N4": {
+      "labels": [
+        8
+      ],
+      "members": [
+        "R4.top",
+        "R1.right"
+      ],
+      "bbox": [
+        452,
+        74,
+        68,
+        65
+      ],
+      "pixels": 433
+    },
+    "N5": {
+      "labels": [
+        15
+      ],
+      "members": [
+        "R3.right"
+      ],
+      "bbox": [
+        367,
+        105,
+        39,
+        55
+      ],
+      "pixels": 619,
+      "dangling": true
+    },
+    "N6": {
+      "labels": [
+        20
+      ],
+      "members": [
+        "R3.top"
+      ],
+      "bbox": [
+        360,
+        129,
+        2,
+        17
+      ],
+      "pixels": 19,
+      "dangling": true
+    },
+    "N7": {
+      "labels": [
+        21
+      ],
+      "members": [
+        "R4.right"
+      ],
+      "bbox": [
+        510,
+        133,
+        19,
+        8
+      ],
+      "pixels": 83,
+      "dangling": true
+    },
+    "N8": {
+      "labels": [
+        28
+      ],
+      "members": [
+        "R3.bottom"
+      ],
+      "bbox": [
+        357,
+        212,
+        1,
+        11
+      ],
+      "pixels": 11,
+      "dangling": true
+    },
+    "N9": {
+      "labels": [
+        27
+      ],
+      "members": [
+        "R4.bottom"
+      ],
+      "bbox": [
+        488,
+        205,
+        4,
+        45
+      ],
+      "pixels": 95,
+      "dangling": true
+    }
+  },
+  "texts": [
+    {
+      "text": "4",
+      "score": 0.974,
+      "bbox": [
+        390,
+        78,
+        57,
+        42
+      ]
+    },
+    {
+      "text": "口",
+      "score": 0.535,
+      "bbox": [
+        234,
+        143,
+        36,
+        63
+      ]
+    },
+    {
+      "text": "60",
+      "score": 0.569,
+      "bbox": [
+        317,
+        169,
+        26,
+        16
+      ]
+    },
+    {
+      "text": "4A",
+      "score": 0.761,
+      "bbox": [
+        590,
+        167,
+        24,
+        16
+      ]
+    }
+  ],
+  "warnings": [
+    "R2(resistor) 只找到 0 个端子: 可能被短接/框太大/导线断开, 请核对",
+    "R4(resistor) 找到 3 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "R3(resistor) 找到 3 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "C1(capacitor) 找到 3 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "节点 N1 只接 1 个端子 (C1.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N2 只接 1 个端子 (C1.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N5 只接 1 个端子 (R3.right): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N6 只接 1 个端子 (R3.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N7 只接 1 个端子 (R4.right): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N8 只接 1 个端子 (R3.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N9 只接 1 个端子 (R4.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "3 段较大的墨迹未接触任何元件 (可能是未识别元件/题目文字/残留手写), 已在标注图中用灰色虚框标出"
+  ],
+  "outputs": {
+    "annotated": "runs\\tsinghua_2005_13\\topology_annotated.png",
+    "netlist_draft": "runs\\tsinghua_2005_13\\netlist_draft.txt"
+  },
+  "yolo_classes": "resistor capacitor inductor diode transistor opamp ic ground voltage_source current_source",
+  "manual_classes": "vcvs vccs ccvs cccs switch port mosfet transformer coupled_inductor element ammeter voltmeter"
+}

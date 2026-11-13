@@ -1,0 +1,998 @@
+{
+  "image": "runs\\bit2017_q10\\01_print.png",
+  "size": [
+    1024,
+    576
+  ],
+  "components": [
+    {
+      "class": "voltage_source",
+      "bbox": [
+        89,
+        185,
+        38,
+        39
+      ],
+      "confidence": 0.736,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "V2",
+      "terminals": [
+        {
+          "net": "N10",
+          "contact_px": 26,
+          "xy": [
+            109,
+            181
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N20",
+          "contact_px": 6,
+          "xy": [
+            105,
+            226
+          ],
+          "side": "bottom"
+        }
+      ]
+    },
+    {
+      "class": "current_source",
+      "bbox": [
+        288,
+        190,
+        36,
+        36
+      ],
+      "confidence": 0.687,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "I1",
+      "terminals": [
+        {
+          "net": "N25",
+          "contact_px": 38,
+          "xy": [
+            326,
+            208
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N17",
+          "contact_px": 24,
+          "xy": [
+            284,
+            200
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N19",
+          "contact_px": 9,
+          "xy": [
+            306,
+            186
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N18",
+          "contact_px": 9,
+          "xy": [
+            283,
+            185
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N1",
+          "contact_px": 6,
+          "xy": [
+            304,
+            228
+          ],
+          "side": "bottom"
+        }
+      ]
+    },
+    {
+      "class": "capacitor",
+      "bbox": [
+        239,
+        200,
+        32,
+        14
+      ],
+      "confidence": 0.585,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "C2",
+      "terminals": [
+        {
+          "net": "N17",
+          "contact_px": 47,
+          "xy": [
+            272,
+            198
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N23",
+          "contact_px": 13,
+          "xy": [
+            236,
+            204
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N24",
+          "contact_px": 10,
+          "xy": [
+            253,
+            216
+          ],
+          "side": "bottom"
+        },
+        {
+          "net": "N15",
+          "contact_px": 7,
+          "xy": [
+            261,
+            196
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N14",
+          "contact_px": 6,
+          "xy": [
+            255,
+            196
+          ],
+          "side": "top"
+        }
+      ],
+      "text_hint": "0.2i"
+    },
+    {
+      "class": "current_source",
+      "bbox": [
+        946,
+        283,
+        32,
+        37
+      ],
+      "confidence": 0.576,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "I2",
+      "terminals": [
+        {
+          "net": "N26",
+          "contact_px": 11,
+          "xy": [
+            942,
+            303
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N27",
+          "contact_px": 6,
+          "xy": [
+            964,
+            322
+          ],
+          "side": "bottom"
+        }
+      ]
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        134,
+        188,
+        21,
+        36
+      ],
+      "confidence": 0.553,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R2",
+      "terminals": [
+        {
+          "net": "N11",
+          "contact_px": 7,
+          "xy": [
+            147,
+            184
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N22",
+          "contact_px": 6,
+          "xy": [
+            156,
+            212
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N21",
+          "contact_px": 6,
+          "xy": [
+            143,
+            226
+          ],
+          "side": "bottom"
+        }
+      ],
+      "text_hint": "0.2i"
+    },
+    {
+      "class": "capacitor",
+      "bbox": [
+        452,
+        145,
+        26,
+        17
+      ],
+      "confidence": 0.508,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "C1",
+      "terminals": [
+        {
+          "net": "N8",
+          "contact_px": 21,
+          "xy": [
+            454,
+            142
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N9",
+          "contact_px": 16,
+          "xy": [
+            480,
+            140
+          ],
+          "side": "top"
+        }
+      ],
+      "text_hint": "<"
+    },
+    {
+      "class": "voltage_source",
+      "bbox": [
+        198,
+        146,
+        36,
+        31
+      ],
+      "confidence": 0.426,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "V1",
+      "terminals": [
+        {
+          "net": "N3",
+          "contact_px": 31,
+          "xy": [
+            208,
+            141
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N12",
+          "contact_px": 12,
+          "xy": [
+            236,
+            162
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N4",
+          "contact_px": 6,
+          "xy": [
+            217,
+            142
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N1",
+          "contact_px": 6,
+          "xy": [
+            194,
+            162
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N2",
+          "contact_px": 5,
+          "xy": [
+            192,
+            145
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N5",
+          "contact_px": 3,
+          "xy": [
+            232,
+            142
+          ],
+          "side": "top"
+        }
+      ],
+      "text_hint": "0.2i"
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        250,
+        170,
+        22,
+        22
+      ],
+      "confidence": 0.392,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R3",
+      "terminals": [
+        {
+          "net": "N17",
+          "contact_px": 19,
+          "xy": [
+            272,
+            196
+          ],
+          "side": "bottom"
+        },
+        {
+          "net": "N16",
+          "contact_px": 7,
+          "xy": [
+            261,
+            166
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N14",
+          "contact_px": 7,
+          "xy": [
+            255,
+            194
+          ],
+          "side": "bottom"
+        },
+        {
+          "net": "N13",
+          "contact_px": 6,
+          "xy": [
+            246,
+            176
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N15",
+          "contact_px": 5,
+          "xy": [
+            261,
+            196
+          ],
+          "side": "bottom"
+        }
+      ]
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        271,
+        156,
+        32,
+        15
+      ],
+      "confidence": 0.288,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R1",
+      "terminals": [
+        {
+          "net": "N19",
+          "contact_px": 23,
+          "xy": [
+            306,
+            167
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N6",
+          "contact_px": 22,
+          "xy": [
+            286,
+            150
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N16",
+          "contact_px": 6,
+          "xy": [
+            267,
+            162
+          ],
+          "side": "left"
+        },
+        {
+          "net": "N7",
+          "contact_px": 4,
+          "xy": [
+            296,
+            151
+          ],
+          "side": "top"
+        }
+      ]
+    }
+  ],
+  "nets": {
+    "N1": {
+      "labels": [
+        123
+      ],
+      "members": [
+        "I1.bottom",
+        "V1.left"
+      ],
+      "bbox": [
+        103,
+        156,
+        202,
+        97
+      ],
+      "pixels": 814
+    },
+    "N2": {
+      "labels": [
+        105
+      ],
+      "members": [
+        "V1.left"
+      ],
+      "bbox": [
+        187,
+        136,
+        8,
+        11
+      ],
+      "pixels": 40,
+      "dangling": true
+    },
+    "N3": {
+      "labels": [
+        101
+      ],
+      "members": [
+        "V1.top"
+      ],
+      "bbox": [
+        196,
+        128,
+        20,
+        18
+      ],
+      "pixels": 122,
+      "dangling": true
+    },
+    "N4": {
+      "labels": [
+        107
+      ],
+      "members": [
+        "V1.top"
+      ],
+      "bbox": [
+        216,
+        139,
+        3,
+        6
+      ],
+      "pixels": 8,
+      "dangling": true
+    },
+    "N5": {
+      "labels": [
+        111
+      ],
+      "members": [
+        "V1.top"
+      ],
+      "bbox": [
+        232,
+        142,
+        2,
+        2
+      ],
+      "pixels": 3,
+      "dangling": true
+    },
+    "N6": {
+      "labels": [
+        114
+      ],
+      "members": [
+        "R1.top"
+      ],
+      "bbox": [
+        280,
+        145,
+        13,
+        8
+      ],
+      "pixels": 59,
+      "dangling": true
+    },
+    "N7": {
+      "labels": [
+        115
+      ],
+      "members": [
+        "R1.top"
+      ],
+      "bbox": [
+        295,
+        145,
+        4,
+        8
+      ],
+      "pixels": 9,
+      "dangling": true
+    },
+    "N8": {
+      "labels": [
+        109
+      ],
+      "members": [
+        "C1.top"
+      ],
+      "bbox": [
+        451,
+        141,
+        9,
+        4
+      ],
+      "pixels": 21,
+      "dangling": true
+    },
+    "N9": {
+      "labels": [
+        106
+      ],
+      "members": [
+        "C1.top"
+      ],
+      "bbox": [
+        467,
+        136,
+        22,
+        8
+      ],
+      "pixels": 56,
+      "dangling": true
+    },
+    "N10": {
+      "labels": [
+        134
+      ],
+      "members": [
+        "V2.top"
+      ],
+      "bbox": [
+        107,
+        174,
+        6,
+        11
+      ],
+      "pixels": 32,
+      "dangling": true
+    },
+    "N11": {
+      "labels": [
+        131
+      ],
+      "members": [
+        "R2.top"
+      ],
+      "bbox": [
+        145,
+        166,
+        6,
+        22
+      ],
+      "pixels": 48,
+      "dangling": true
+    },
+    "N12": {
+      "labels": [
+        127
+      ],
+      "members": [
+        "V1.right"
+      ],
+      "bbox": [
+        234,
+        162,
+        16,
+        2
+      ],
+      "pixels": 28,
+      "dangling": true
+    },
+    "N13": {
+      "labels": [
+        137
+      ],
+      "members": [
+        "R3.left"
+      ],
+      "bbox": [
+        245,
+        176,
+        3,
+        2
+      ],
+      "pixels": 6,
+      "dangling": true
+    },
+    "N14": {
+      "labels": [
+        149
+      ],
+      "members": [
+        "C2.top",
+        "R3.bottom"
+      ],
+      "bbox": [
+        255,
+        192,
+        2,
+        8
+      ],
+      "pixels": 9
+    },
+    "N15": {
+      "labels": [
+        152
+      ],
+      "members": [
+        "C2.top",
+        "R3.bottom"
+      ],
+      "bbox": [
+        261,
+        195,
+        2,
+        5
+      ],
+      "pixels": 7
+    },
+    "N16": {
+      "labels": [
+        128
+      ],
+      "members": [
+        "R3.top",
+        "R1.left"
+      ],
+      "bbox": [
+        261,
+        162,
+        10,
+        8
+      ],
+      "pixels": 17
+    },
+    "N17": {
+      "labels": [
+        150
+      ],
+      "members": [
+        "I1.left",
+        "C2.top",
+        "R3.bottom"
+      ],
+      "bbox": [
+        269,
+        193,
+        19,
+        12
+      ],
+      "pixels": 114
+    },
+    "N18": {
+      "labels": [
+        140
+      ],
+      "members": [
+        "I1.top"
+      ],
+      "bbox": [
+        282,
+        182,
+        5,
+        7
+      ],
+      "pixels": 15,
+      "dangling": true
+    },
+    "N19": {
+      "labels": [
+        129
+      ],
+      "members": [
+        "I1.top",
+        "R1.right"
+      ],
+      "bbox": [
+        303,
+        162,
+        6,
+        28
+      ],
+      "pixels": 45
+    },
+    "N20": {
+      "labels": [
+        183
+      ],
+      "members": [
+        "V2.bottom"
+      ],
+      "bbox": [
+        105,
+        224,
+        1,
+        9
+      ],
+      "pixels": 9,
+      "dangling": true
+    },
+    "N21": {
+      "labels": [
+        184
+      ],
+      "members": [
+        "R2.bottom"
+      ],
+      "bbox": [
+        143,
+        224,
+        1,
+        6
+      ],
+      "pixels": 6,
+      "dangling": true
+    },
+    "N22": {
+      "labels": [
+        168
+      ],
+      "members": [
+        "R2.right"
+      ],
+      "bbox": [
+        155,
+        212,
+        3,
+        3
+      ],
+      "pixels": 6,
+      "dangling": true
+    },
+    "N23": {
+      "labels": [
+        154
+      ],
+      "members": [
+        "C2.left"
+      ],
+      "bbox": [
+        235,
+        201,
+        4,
+        8
+      ],
+      "pixels": 13,
+      "dangling": true
+    },
+    "N24": {
+      "labels": [
+        172
+      ],
+      "members": [
+        "C2.bottom"
+      ],
+      "bbox": [
+        252,
+        214,
+        3,
+        17
+      ],
+      "pixels": 29,
+      "dangling": true
+    },
+    "N25": {
+      "labels": [
+        162
+      ],
+      "members": [
+        "I1.right"
+      ],
+      "bbox": [
+        324,
+        205,
+        14,
+        8
+      ],
+      "pixels": 82,
+      "dangling": true
+    },
+    "N26": {
+      "labels": [
+        249
+      ],
+      "members": [
+        "I2.left"
+      ],
+      "bbox": [
+        936,
+        301,
+        9,
+        4
+      ],
+      "pixels": 25,
+      "dangling": true
+    },
+    "N27": {
+      "labels": [
+        255
+      ],
+      "members": [
+        "I2.bottom"
+      ],
+      "bbox": [
+        964,
+        320,
+        1,
+        13
+      ],
+      "pixels": 13,
+      "dangling": true
+    }
+  },
+  "texts": [
+    {
+      "text": "10.（北理2017）电路如图5所示，开关在t-0时由“a”端投向“b\"端，开关动作前电路已处稳态，用",
+      "score": 0.918,
+      "bbox": [
+        71,
+        41,
+        738,
+        48
+      ]
+    },
+    {
+      "text": "三要素法求it），1>0。",
+      "score": 0.863,
+      "bbox": [
+        72,
+        81,
+        168,
+        23
+      ]
+    },
+    {
+      "text": "l.cC=Ccc.)=2",
+      "score": 0.644,
+      "bbox": [
+        350,
+        91,
+        273,
+        39
+      ]
+    },
+    {
+      "text": "13.（清华2005）",
+      "score": 0.955,
+      "bbox": [
+        917,
+        157,
+        106,
+        28
+      ]
+    },
+    {
+      "text": "<",
+      "score": 0.576,
+      "bbox": [
+        361,
+        174,
+        186,
+        35
+      ]
+    },
+    {
+      "text": "求电流i）并画",
+      "score": 0.854,
+      "bbox": [
+        921,
+        195,
+        102,
+        24
+      ]
+    },
+    {
+      "text": "0.2i",
+      "score": 0.821,
+      "bbox": [
+        187,
+        229,
+        26,
+        14
+      ]
+    },
+    {
+      "text": "图5",
+      "score": 0.996,
+      "bbox": [
+        196,
+        261,
+        23,
+        14
+      ]
+    }
+  ],
+  "warnings": [
+    "I1(current_source) 找到 5 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "C2(capacitor) 找到 5 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "R2(resistor) 找到 3 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "V1(voltage_source) 找到 6 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "R3(resistor) 找到 5 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "R1(resistor) 找到 4 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "节点 N2 只接 1 个端子 (V1.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N3 只接 1 个端子 (V1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N4 只接 1 个端子 (V1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N5 只接 1 个端子 (V1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N6 只接 1 个端子 (R1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N7 只接 1 个端子 (R1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N8 只接 1 个端子 (C1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N9 只接 1 个端子 (C1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N10 只接 1 个端子 (V2.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N11 只接 1 个端子 (R2.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N12 只接 1 个端子 (V1.right): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N13 只接 1 个端子 (R3.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N18 只接 1 个端子 (I1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N20 只接 1 个端子 (V2.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N21 只接 1 个端子 (R2.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N22 只接 1 个端子 (R2.right): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N23 只接 1 个端子 (C2.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N24 只接 1 个端子 (C2.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N25 只接 1 个端子 (I1.right): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N26 只接 1 个端子 (I2.left): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N27 只接 1 个端子 (I2.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "5 段较大的墨迹未接触任何元件 (可能是未识别元件/题目文字/残留手写), 已在标注图中用灰色虚框标出"
+  ],
+  "outputs": {
+    "annotated": "runs\\bit2017_q10\\topology_annotated.png",
+    "netlist_draft": "runs\\bit2017_q10\\netlist_draft.txt"
+  },
+  "yolo_classes": "resistor capacitor inductor diode transistor opamp ic ground voltage_source current_source",
+  "manual_classes": "vcvs vccs ccvs cccs switch port mosfet transformer coupled_inductor element ammeter voltmeter"
+}

@@ -1,0 +1,28 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Optional large pretrained weights (user downloads separately)
+models/handwriting_eraser/*.pth
+*.onnx
+!vendor/**/*.pt
+
+# Temporary test outputs (keep curated benchmark runs)
+runs/test1*/
+runs/test_dep_opamp/
+*.tmp
+*.log

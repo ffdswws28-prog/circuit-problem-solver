@@ -1,0 +1,7 @@
+# 网表草稿 (lcapy 语法). 节点名对应 topology_annotated.png 中的颜色标签.
+# !!! 元件值/方向/受控源控制量 必须对照题图确认后再求解 !!!
+C1 N1 N2 {?} ; class=capacitor ocr="口" terminals=N1@left,N2@left,N3@right
+R1 N4 N3 {?} ; class=resistor ocr="4" terminals=N4@right,N3@left
+# R2 class=resistor terminals= ocr="口"  <- 多端/端子异常, 需手工写
+R3 N5 N6 {?} ; class=resistor ocr="60" terminals=N5@right,N6@top,N8@bottom
+R4 N7 N4 {?} ; class=resistor ocr="4" terminals=N7@right,N4@top,N9@bottom

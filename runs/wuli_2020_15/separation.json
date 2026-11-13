@@ -1,0 +1,41 @@
+{
+  "input": "C:/Users/WANG/.gemini/antigravity/brain/d9a3ea1b-66f9-4dac-ac50-bbce188984f5/.user_uploaded/media_1794553330018_bc1a9834.jpg",
+  "size": [
+    1024,
+    576
+  ],
+  "scale": 1.0,
+  "rotate": 180,
+  "upscale": 1.0,
+  "mode": "auto",
+  "notes": [
+    "auto 跳过铅笔擦除 (彩色手写占比=0.457, 墨迹p15灰度=72.0)"
+  ],
+  "color": {
+    "pixels": 14592,
+    "dominant_hues": [
+      {
+        "hue": "orange",
+        "share": 0.513
+      },
+      {
+        "hue": "red",
+        "share": 0.434
+      },
+      {
+        "hue": "yellow",
+        "share": 0.025
+      }
+    ]
+  },
+  "model": "未找到模型权重 (放到 D:\\电路\\models\\handwriting_eraser\\*.pth 即可启用)",
+  "repaired_pixels": 44,
+  "hand_share_of_ink": 0.4567,
+  "outputs": {
+    "normalized": "runs\\wuli_2020_15\\00_normalized.png",
+    "print": "runs\\wuli_2020_15\\01_print.png",
+    "hand": "runs\\wuli_2020_15\\02_hand.png",
+    "overlay": "runs\\wuli_2020_15\\03_overlay.png"
+  },
+  "coords_note": "所有输出图共用同一坐标系 (工作图 = 原图 × scale); 人工框也用此坐标"
+}

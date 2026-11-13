@@ -1,0 +1,387 @@
+{
+  "image": "runs\\wuli_2020_15\\01_print.png",
+  "size": [
+    1024,
+    576
+  ],
+  "components": [
+    {
+      "class": "current_source",
+      "bbox": [
+        127,
+        185,
+        62,
+        64
+      ],
+      "confidence": 0.874,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "I1",
+      "terminals": [
+        {
+          "net": "N8",
+          "contact_px": 17,
+          "xy": [
+            156,
+            251
+          ],
+          "side": "bottom"
+        },
+        {
+          "net": "N6",
+          "contact_px": 16,
+          "xy": [
+            159,
+            181
+          ],
+          "side": "top"
+        }
+      ],
+      "text_hint": "4V"
+    },
+    {
+      "class": "resistor",
+      "bbox": [
+        199,
+        110,
+        45,
+        20
+      ],
+      "confidence": 0.729,
+      "source": "yolo:circuit_yolov8n_v2",
+      "id": "R1",
+      "terminals": [
+        {
+          "net": "N2",
+          "contact_px": 80,
+          "xy": [
+            221,
+            106
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N4",
+          "contact_px": 16,
+          "xy": [
+            246,
+            118
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N3",
+          "contact_px": 13,
+          "xy": [
+            248,
+            106
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N1",
+          "contact_px": 13,
+          "xy": [
+            196,
+            104
+          ],
+          "side": "top"
+        },
+        {
+          "net": "N7",
+          "contact_px": 12,
+          "xy": [
+            195,
+            120
+          ],
+          "side": "left"
+        }
+      ],
+      "text_hint": "42"
+    },
+    {
+      "class": "voltage_source",
+      "bbox": [
+        131,
+        88,
+        38,
+        44
+      ],
+      "confidence": 0.468,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "V1",
+      "terminals": [
+        {
+          "net": "N7",
+          "contact_px": 12,
+          "xy": [
+            171,
+            122
+          ],
+          "side": "right"
+        },
+        {
+          "net": "N6",
+          "contact_px": 12,
+          "xy": [
+            161,
+            134
+          ],
+          "side": "bottom"
+        },
+        {
+          "net": "N5",
+          "contact_px": 3,
+          "xy": [
+            152,
+            132
+          ],
+          "side": "bottom"
+        }
+      ],
+      "text_hint": "42"
+    },
+    {
+      "class": "capacitor",
+      "bbox": [
+        304,
+        220,
+        19,
+        20
+      ],
+      "confidence": 0.283,
+      "source": "yolo:circuit_yolov8n_v3",
+      "id": "C1",
+      "terminals": []
+    }
+  ],
+  "nets": {
+    "N1": {
+      "labels": [
+        53
+      ],
+      "members": [
+        "R1.top"
+      ],
+      "bbox": [
+        188,
+        103,
+        15,
+        3
+      ],
+      "pixels": 25,
+      "dangling": true
+    },
+    "N2": {
+      "labels": [
+        51
+      ],
+      "members": [
+        "R1.top"
+      ],
+      "bbox": [
+        213,
+        100,
+        16,
+        10
+      ],
+      "pixels": 116,
+      "dangling": true
+    },
+    "N3": {
+      "labels": [
+        48
+      ],
+      "members": [
+        "R1.top"
+      ],
+      "bbox": [
+        242,
+        95,
+        16,
+        16
+      ],
+      "pixels": 68,
+      "dangling": true
+    },
+    "N4": {
+      "labels": [
+        61
+      ],
+      "members": [
+        "R1.right"
+      ],
+      "bbox": [
+        244,
+        118,
+        18,
+        8
+      ],
+      "pixels": 76,
+      "dangling": true
+    },
+    "N5": {
+      "labels": [
+        86
+      ],
+      "members": [
+        "V1.bottom"
+      ],
+      "bbox": [
+        152,
+        132,
+        2,
+        2
+      ],
+      "pixels": 3,
+      "dangling": true
+    },
+    "N6": {
+      "labels": [
+        87
+      ],
+      "members": [
+        "I1.top",
+        "V1.bottom"
+      ],
+      "bbox": [
+        158,
+        132,
+        5,
+        53
+      ],
+      "pixels": 137
+    },
+    "N7": {
+      "labels": [
+        65
+      ],
+      "members": [
+        "R1.left",
+        "V1.right"
+      ],
+      "bbox": [
+        169,
+        120,
+        30,
+        4
+      ],
+      "pixels": 67
+    },
+    "N8": {
+      "labels": [
+        153
+      ],
+      "members": [
+        "I1.bottom"
+      ],
+      "bbox": [
+        153,
+        249,
+        238,
+        70
+      ],
+      "pixels": 814,
+      "dangling": true
+    }
+  },
+  "texts": [
+    {
+      "text": "《电路》高分精选考题",
+      "score": 0.994,
+      "bbox": [
+        703,
+        41,
+        141,
+        24
+      ]
+    },
+    {
+      "text": "42",
+      "score": 0.95,
+      "bbox": [
+        208,
+        129,
+        27,
+        19
+      ]
+    },
+    {
+      "text": "22",
+      "score": 0.912,
+      "bbox": [
+        246,
+        164,
+        30,
+        21
+      ]
+    },
+    {
+      "text": "+",
+      "score": 0.746,
+      "bbox": [
+        193,
+        178,
+        20,
+        22
+      ]
+    },
+    {
+      "text": "4V",
+      "score": 0.986,
+      "bbox": [
+        186,
+        203,
+        30,
+        22
+      ]
+    },
+    {
+      "text": "题2一6图",
+      "score": 0.909,
+      "bbox": [
+        225,
+        332,
+        86,
+        27
+      ]
+    },
+    {
+      "text": "16.（同济2022）图示电路的戴维南等效电路的参数是（",
+      "score": 0.991,
+      "bbox": [
+        89,
+        494,
+        496,
+        43
+      ]
+    },
+    {
+      "text": "60",
+      "score": 0.635,
+      "bbox": [
+        283,
+        550,
+        32,
+        21
+      ]
+    }
+  ],
+  "warnings": [
+    "R1(resistor) 找到 5 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "V1(voltage_source) 找到 3 个端子 (>2): 可能有导线贴着框经过或框过大, 请核对",
+    "C1(capacitor) 只找到 0 个端子: 可能被短接/框太大/导线断开, 请核对",
+    "节点 N1 只接 1 个端子 (R1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N2 只接 1 个端子 (R1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N3 只接 1 个端子 (R1.top): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N4 只接 1 个端子 (R1.right): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N5 只接 1 个端子 (V1.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "节点 N8 只接 1 个端子 (I1.bottom): 若不是题目端口(a,b 等), 可能是元件框太小留下的残片",
+    "10 段较大的墨迹未接触任何元件 (可能是未识别元件/题目文字/残留手写), 已在标注图中用灰色虚框标出"
+  ],
+  "outputs": {
+    "annotated": "runs\\wuli_2020_15\\topology_annotated.png",
+    "netlist_draft": "runs\\wuli_2020_15\\netlist_draft.txt"
+  },
+  "yolo_classes": "resistor capacitor inductor diode transistor opamp ic ground voltage_source current_source",
+  "manual_classes": "vcvs vccs ccvs cccs switch port mosfet transformer coupled_inductor element ammeter voltmeter"
+}
